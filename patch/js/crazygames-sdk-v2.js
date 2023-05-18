@@ -8044,14 +8044,15 @@
                             return u.default.log("requesting " + t + " ad"),
                             this.requestInProgress = !0,
                             this.showOverlay(),
-                            this.overlay.innerHTML = "<h1>A " + t + " ad would appear here</h1>",
+                            // this.overlay.innerHTML = "<h1>A " + t + " ad would appear here</h1>",
+                            this.overlay.innerHTML = "<h1>www.Games235.com</h1>",
                             [2, new Promise((function(t) {
                                 window.setTimeout((function() {
                                     e.requestInProgress = !1,
                                     e.hideOverlay(),
                                     t()
                                 }
-                                ), 5e3)
+                                ), 1000)
                             }
                             ))]
                         }
@@ -9835,7 +9836,7 @@
                                 p.wait)(500)];
                             case 1:
                                 return t.sent(),
-                                [2, ["localhost", "127.0.0.1"].includes(window.location.hostname) || "true" === (0,
+                                [2, ["localhost", "127.0.0.1"].includes("localhost") || "true" === (0,
                                 l.getQueryStringValue)("useLocalSdk")]
                             }
                         }
